@@ -1,0 +1,62 @@
+.fsimg-circle{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	/*float: left;*/
+	padding-right: 8px;
+	min-height: 100px;
+	min-width: 100px;
+}
+.fs-profile{
+  	position:relative;
+    height:auto;
+    padding: 5px;
+    display: inline;
+    float: left;
+    border-bottom: #E5E5E5 solid 2px;
+}
+.toptable{
+  vertical-align: top;
+}
+label.error {
+    height:17px;
+    margin-left:9px;
+    padding:1px 5px 0px 5px;
+    font-size:small;
+    color: red;
+}
+input.error {
+	border: 4px solid;
+	border-color: red !important;
+}
+.facstaff{
+	width: inherit;
+}
+.fsentry {
+  float: left;
+  margin: 1px;
+  margin-bottom: 5px;
+  padding: 10px;
+  padding-bottom: 20px;
+  border: 1px solid #d1cfcf;
+  min-width: 110px;
+}
+.fspic{
+	float: left;
+	vertical-align: top;
+}
+#noimgstyle{
+	padding: 5px;
+}
+.fa {
+	margin-right: 4px;
+}
+.fstriple{
+	width: 28%;
+}
+.fsdual{
+	width: 47%;
+}
+.fssingle{
+	width: 97%;
+}

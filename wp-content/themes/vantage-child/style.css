@@ -1,0 +1,76 @@
+/*
+Theme Name:     vantage Child
+Theme URI:      http://example.com/
+Description:    Child theme for the vantage theme
+Author:         Fabienne Hirwa
+Author URI:     http://themeid.com
+Template:       vantage                             
+Version:        0.1.0
+*/
+
+@import url("../vantage/style.css");
+
+body {
+    background: none repeat scroll 0% 0% #F8FBEF;
+}
+
+#page-wrapper{
+ box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.4);
+}
+.widget_circleicon-widget .circle-icon-box h4 {
+    color: #21BE45;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 0.8em;
+    margin-top: 0px;
+}
+
+/*Menu : Navigation bar*/
+.main-navigation {
+    margin: 0px -35px;
+    background: none repeat scroll 0% 0% green;
+    font-size: 13px;
+    position: relative;
+}
+
+/*Menu : Menu items*/
+    .main-navigation ul li a {
+    padding: 10px 25px;
+    box-sizing: border-box;
+}
+
+/*Menu : Submenus*/
+  .main-navigation ul ul a:hover{
+  /*background-color:transparent!important;*/
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.main-navigation ul ul a {
+    width: 130px;
+    padding: 10px 25px;
+}
+
+/*page content : Remove page title*/
+body.page .entry-title {
+   display:none;
+}
+
+/*Footer*/
+#colophon {
+   /* background: none repeat scroll 0% 0% #0B3B17;*/
+   background: none repeat scroll 0% 0% #004871;
+height : 40px;
+
+}
+
+#colophon #theme-attribution {
+display: none;
+}
+
+
+/*#primary {
+    float: left;
+    width: 71.287%;
+background-color: #ccc;
+}*/
+
