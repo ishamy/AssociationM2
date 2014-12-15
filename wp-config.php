@@ -78,7 +78,7 @@ $table_prefix  = 'wp_';
  * développement.
  */ 
 define('WP_DEBUG', false); 
-
+set_time_limit(60);
 /* C'est tout, ne touchez pas à ce qui suit ! Bon blogging ! */
 
 /** Chemin absolu vers le dossier de WordPress. */
